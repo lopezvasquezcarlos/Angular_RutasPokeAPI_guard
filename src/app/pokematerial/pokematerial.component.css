@@ -1,0 +1,18 @@
+.pokemonImage { 
+    background-size: 150px; 
+    width: 200px; 
+    height: 200px; 
+    margin-left: 50px; 
+} 
+ 
+.content { 
+    position: fixed; /* or absolute */ 
+    left: 50%; 
+    width: 300px; 
+    margin-top: 50px; 
+    margin-left: -150px; 
+}
+.container {
+    height: 100%;
+    overflow: auto; /* Para permitir desplazamiento si el contenido es mayor que la ventana */
+}

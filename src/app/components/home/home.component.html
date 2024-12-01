@@ -1,0 +1,9 @@
+<p>DashBoard</p>
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+<!--<button mat-menu-item><a routerLink="dashboard" routerLinkActive="activebutton" class="button">Dashboard</a></button>-->
+<button mat-menu-item><a routerLink="pokemonmenu" routerLinkActive="activebutton" class="button">PokemonMenu</a></button>
+<button mat-menu-item><a routerLink="menu-componet" routerLinkActive="activebutton" class="button">MenuComponent</a></button>
+</mat-menu>
+<button (click)="logout()">Cerrar Sesión</button>
+<router-outlet></router-outlet>

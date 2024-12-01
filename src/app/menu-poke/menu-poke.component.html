@@ -1,0 +1,7 @@
+<p>Menu de Pokemon</p>
+<button mat-button [matMenuTriggerFor]="menu">Menu Pokemon</button>
+<mat-menu #menu="matMenu">
+<button mat-menu-item><a routerLink="pokemonmate" routerLinkActive="activebutton" >PokemonMAterial</a></button>
+<button mat-menu-item><a routerLink="pokemon" routerLinkActive="activebutton" >Pokemon</a></button>
+</mat-menu>
+<router-outlet></router-outlet>
